@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Modo Escuro Bootc",
+    "version": "1.0",
+    "description": "Alterna entre modo claro e escuro nas páginas.",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
